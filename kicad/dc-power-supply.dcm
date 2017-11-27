@@ -1,0 +1,116 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +30V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP 320S14
+D Bipolar Transistors - BJT 4 PNP Matched 
+$ENDCMP
+#
+$CMP 4558
+D Dual Op amp (general purpose)
+K ampliop
+F http://www.ti.com/lit/ds/symlink/rc4558.pdf
+$ENDCMP
+#
+$CMP ADuM262N
+D Isolated 5 kV DC-to-DC Converter
+K Isolated DC-to-DC Converter 5kV
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM260N-261N-262N-263N.pdf
+$ENDCMP
+#
+$CMP AS4C32M16SA-7TCN
+D SDRAM,CMOS,512M,32M x 16,3.3V,TSOP II-54 AS4C32M16SA-7TCN, SDRAM Memory 512Mbit Surface Mount, 133MHz, 3  3.6 V, 0  +70 C, 54-Pin, TSOP
+F http://www.alliancememory.com/pdf/dram/512M-SDRAM.pdf
+$ENDCMP
+#
+$CMP FDMS86500L
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86500L.pdf
+$ENDCMP
+#
+$CMP LM358N
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP LMC6062
+D Dual Op amp (low power)
+K ampliop
+F op_amps/lmc6062.pdf
+$ENDCMP
+#
+$CMP LMC6082
+D Dual Op amp (low power)
+K ampliop
+F op_amps/lmc6082.pdf
+$ENDCMP
+#
+$CMP LMC6482
+D CMOS Dual Rail-to-Rail Input and Output Opamp
+K opamp
+F http://www.ti.com/lit/gpn/lmc6482
+$ENDCMP
+#
+$CMP LMV358
+D Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers
+K ampliop
+F http://www.ti.com/lit/ds/symlink/lmv324.pdf
+$ENDCMP
+#
+$CMP LT1013DS
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP LT1013DS8
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP MCP602
+D Dual 2.7V to 6.0V Single Supply CMOS Operational Amplifier
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP NE5532
+D Dual Op amp (low noice)
+K ampliop
+F http://www.ti.com/lit/ds/symlink/ne5532.pdf
+$ENDCMP
+#
+$CMP TL072
+D Dual Low-Noise JFET-Input Operational Amplifiers, Low Power
+K ampliop
+F http://www.ti.com/lit/ds/symlink/tl074.pdf
+$ENDCMP
+#
+$CMP TL082
+D JFET-Input Operational Amplifiers
+K ampliop
+F http://www.ti.com/lit/ds/symlink/tl082.pdf
+$ENDCMP
+#
+$CMP TLC272
+D Dual LinCMOS Precision Operational Amplifiers
+K Precision OPAMP ampliop
+F http://www.ti.com/lit/ds/symlink/tlc272.pdf
+$ENDCMP
+#
+$CMP TS912
+D Dual Rail-to-rail CMOS Operational Amplifier
+K ampliop
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/3b/16/fd/19/b8/21/40/7f/CD00000501.pdf/files/CD00000501.pdf/jcr:content/translations/en.CD00000501.pdf
+$ENDCMP
+#
+$CMP USB_B
+D USB Type B connector
+K connector USB
+$ENDCMP
+#
+#End Doc Library
