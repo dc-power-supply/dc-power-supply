@@ -9,7 +9,7 @@
 
 ## Description
 
-An open source hardware (OSHW) DC power supply designed using open source tools.
+An open source hardware (OSHW) DC power supply designed using open source tools *(WORK IN PROGRESS)*.
 
 <br/>
 <p align="center">
