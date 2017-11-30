@@ -9,7 +9,7 @@
 
 ## Description
 
-An open source hardware (OSHW) DC power supply designed using open source tools *(WORK IN PROGRESS)*.
+An open source hardware (OSHW) benchtop DC power supply designed using open source tools *(WORK IN PROGRESS)*.
 
 <br/>
 <p align="center">
@@ -23,7 +23,7 @@ This project started as an effort to learn the ins and outs of KiCad because
 the author needed to learn how to do a hardware design for a prototype (not
 related to this project). However, this side project quickly grew into a thing
 of its own. It reflects the ideas and features that the author wishes for a
-modern DC power supply.
+modern benchtop DC power supply.
 
 Also, the world needs a modern compact **fanless** OSHW DC power supply that fits
 on the table of every engineer and hacker out there. Lets design one!
