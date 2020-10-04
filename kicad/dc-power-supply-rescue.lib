@@ -1,26 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Mechanical_MountingHole
+# +12V
 #
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
-# dc-power-supply-rescue_+12V
-#
-DEF dc-power-supply-rescue_+12V #PWR 0 0 Y Y 1 F P
+DEF +12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dc-power-supply-rescue_+12V" 0 140 50 H V C CNN
+F1 "+12V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_+3.3V
+# +3.3V
 #
-DEF dc-power-supply-rescue_+3.3V #PWR 0 0 Y Y 1 F P
+DEF +3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dc-power-supply-rescue_+3.3V" 0 140 50 H V C CNN
+F1 "+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_+30V-dc-power-supply-rescue
+# +30V-dc-power-supply-rescue
 #
-DEF dc-power-supply-rescue_+30V-dc-power-supply-rescue #PWR 0 0 Y Y 1 F P
+DEF +30V-dc-power-supply-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dc-power-supply-rescue_+30V-dc-power-supply-rescue" 0 150 50 H V C CNN
+F1 "+30V-dc-power-supply-rescue" 0 150 50 H V C CNN
 F2 "" 250 50 50 H I C CNN
 F3 "" 250 50 50 H I C CNN
 DRAW
@@ -61,11 +46,26 @@ X +30V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_+4V
+# +40V
 #
-DEF dc-power-supply-rescue_+4V #PWR 0 0 Y Y 1 F P
+DEF +40V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dc-power-supply-rescue_+4V" 0 140 50 H V C CNN
+F1 "+40V" 0 150 50 H V C CNN
+F2 "" 250 50 50 H I C CNN
+F3 "" 250 50 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +40V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +4V
+#
+DEF +4V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+4V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -76,11 +76,11 @@ X +4V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_320S14
+# 320S14
 #
-DEF dc-power-supply-rescue_320S14 U 0 40 Y Y 1 F N
+DEF 320S14 U 0 40 Y Y 1 F N
 F0 "U" -250 445 60 H V C CNN
-F1 "dc-power-supply-rescue_320S14" -135 350 60 H V C CNN
+F1 "320S14" -135 350 60 H V C CNN
 F2 "" -100 -100 60 H I C CNN
 F3 "" -100 -100 60 H I C CNN
 DRAW
@@ -102,11 +102,11 @@ X Q4B 9 500 -300 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_ADuM262N
+# ADuM262N
 #
-DEF dc-power-supply-rescue_ADuM262N U 0 20 Y Y 1 F N
+DEF ADuM262N U 0 20 Y Y 1 F N
 F0 "U" -400 500 50 H V L CNN
-F1 "dc-power-supply-rescue_ADuM262N" 0 500 50 H V L CNN
+F1 "ADuM262N" 0 500 50 H V L CNN
 F2 "" -500 300 50 H I C CNN
 F3 "" -500 300 50 H I C CNN
 $FPLIST
@@ -135,11 +135,11 @@ X GND2 9 500 -400 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_AS4C32M16SA-7TCN
+# AS4C32M16SA-7TCN
 #
-DEF dc-power-supply-rescue_AS4C32M16SA-7TCN IC 0 30 Y Y 1 F N
+DEF AS4C32M16SA-7TCN IC 0 30 Y Y 1 F N
 F0 "IC" 650 2950 50 H V C CNN
-F1 "dc-power-supply-rescue_AS4C32M16SA-7TCN" 650 50 50 H V C CNN
+F1 "AS4C32M16SA-7TCN" 650 50 50 H V C CNN
 F2 "SOP80P1176X120-54N" 650 -50 50 H I C CNN
 F3 "http://www.alliancememory.com/pdf/dram/512M-SDRAM.pdf" 650 -150 50 H I C CNN
 F4 "SDRAM,CMOS,512M,32M x 16,3.3V,TSOP II-54 AS4C32M16SA-7TCN, SDRAM Memory 512Mbit Surface Mount, 133MHz, 3  3.6 V, 0  +70 C, 54-Pin, TSOP" 650 -250 50 H I C CNN "Description"
@@ -206,11 +206,11 @@ X VCCQ(2) 9 0 2000 200 R 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_BC847
+# BC847
 #
-DEF dc-power-supply-rescue_BC847 Q 0 0 Y N 1 F N
+DEF BC847 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "dc-power-supply-rescue_BC847" 200 0 50 H V L CNN
+F1 "BC847" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -228,11 +228,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_CONN_01X02_MALE
+# CONN_01X02_MALE
 #
-DEF dc-power-supply-rescue_CONN_01X02_MALE J 0 40 Y N 1 F N
+DEF CONN_01X02_MALE J 0 40 Y N 1 F N
 F0 "J" 0 175 50 H V C CNN
-F1 "dc-power-supply-rescue_CONN_01X02_MALE" 0 -200 50 H V C CNN
+F1 "CONN_01X02_MALE" 0 -200 50 H V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW
@@ -244,11 +244,11 @@ X 2 2 300 -100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_CONN_01X30
+# CONN_01X30
 #
-DEF dc-power-supply-rescue_CONN_01X30 J 0 40 Y N 1 F N
+DEF CONN_01X30 J 0 40 Y N 1 F N
 F0 "J" 0 1550 50 H V C CNN
-F1 "dc-power-supply-rescue_CONN_01X30" 100 0 50 V V C CNN
+F1 "CONN_01X30" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -322,11 +322,11 @@ X P9 9 -200 650 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_CONN_02X05
+# CONN_02X05
 #
-DEF dc-power-supply-rescue_CONN_02X05 J 0 1 Y N 1 F N
+DEF CONN_02X05 J 0 1 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "dc-power-supply-rescue_CONN_02X05" 0 -300 50 H V C CNN
+F1 "CONN_02X05" 0 -300 50 H V C CNN
 F2 "" 0 -1200 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
 $FPLIST
@@ -361,11 +361,11 @@ X P9 9 -250 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_CONN_02X07
+# CONN_02X07
 #
-DEF dc-power-supply-rescue_CONN_02X07 J 0 1 Y N 1 F N
+DEF CONN_02X07 J 0 1 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "dc-power-supply-rescue_CONN_02X07" 0 0 50 V V C CNN
+F1 "CONN_02X07" 0 0 50 V V C CNN
 F2 "" 0 -1200 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
 $FPLIST
@@ -408,11 +408,11 @@ X P9 9 -250 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_CONN_02X10
+# CONN_02X10
 #
-DEF dc-power-supply-rescue_CONN_02X10 J 0 1 Y N 1 F N
+DEF CONN_02X10 J 0 1 Y N 1 F N
 F0 "J" 0 550 50 H V C CNN
-F1 "dc-power-supply-rescue_CONN_02X10" 0 0 50 V V C CNN
+F1 "CONN_02X10" 0 0 50 V V C CNN
 F2 "" 0 -1200 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
 $FPLIST
@@ -467,11 +467,11 @@ X P9 9 -250 50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_CP1_Small
+# CP1_Small
 #
-DEF dc-power-supply-rescue_CP1_Small C 0 10 N N 1 F N
+DEF CP1_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "dc-power-supply-rescue_CP1_Small" 10 -80 50 H V L CNN
+F1 "CP1_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -487,11 +487,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_CP_Small
+# CP_Small
 #
-DEF dc-power-supply-rescue_CP_Small C 0 10 N N 1 F N
+DEF CP_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "dc-power-supply-rescue_CP_Small" 10 -80 50 H V L CNN
+F1 "CP_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -507,11 +507,11 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_C_Small
+# C_Small
 #
-DEF dc-power-supply-rescue_C_Small C 0 10 N N 1 F N
+DEF C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "dc-power-supply-rescue_C_Small" 10 -80 50 H V L CNN
+F1 "C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -525,11 +525,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_Crystal
+# Crystal
 #
-DEF dc-power-supply-rescue_Crystal Y 0 40 N N 1 F N
+DEF Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "dc-power-supply-rescue_Crystal" 0 -150 50 H V C CNN
+F1 "Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -546,11 +546,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_Crystal_GND24
+# Crystal_GND24
 #
-DEF dc-power-supply-rescue_Crystal_GND24 Y 0 40 Y N 1 F N
+DEF Crystal_GND24 Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "dc-power-supply-rescue_Crystal_GND24" 125 125 50 H V L CNN
+F1 "Crystal_GND24" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -573,11 +573,11 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_D_Schottky
+# D_Schottky
 #
-DEF dc-power-supply-rescue_D_Schottky D 0 40 N N 1 F N
+DEF D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "dc-power-supply-rescue_D_Schottky" 0 -100 50 H V C CNN
+F1 "D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -596,11 +596,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_D_Schottky_Small_ALT
+# D_Schottky_Small_ALT
 #
-DEF dc-power-supply-rescue_D_Schottky_Small_ALT D 0 10 N N 1 F N
+DEF D_Schottky_Small_ALT D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "dc-power-supply-rescue_D_Schottky_Small_ALT" -280 -80 50 H V L CNN
+F1 "D_Schottky_Small_ALT" -280 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -621,11 +621,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_D_Small
+# D_Small
 #
-DEF dc-power-supply-rescue_D_Small D 0 10 N N 1 F N
+DEF D_Small D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "dc-power-supply-rescue_D_Small" -150 -80 50 H V L CNN
+F1 "D_Small" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -644,11 +644,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_Ferrite_Bead_Small
+# Ferrite_Bead_Small
 #
-DEF dc-power-supply-rescue_Ferrite_Bead_Small L 0 0 N Y 1 F N
+DEF Ferrite_Bead_Small L 0 0 N Y 1 F N
 F0 "L" 75 50 50 H V L CNN
-F1 "dc-power-supply-rescue_Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F1 "Ferrite_Bead_Small" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -665,11 +665,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_GND
+# GND
 #
-DEF dc-power-supply-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "dc-power-supply-rescue_GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -678,11 +678,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LAN8720A
+# LAN8720A
 #
-DEF dc-power-supply-rescue_LAN8720A U 0 40 Y Y 1 F N
+DEF LAN8720A U 0 40 Y Y 1 F N
 F0 "U" -300 1125 50 H V R CNN
-F1 "dc-power-supply-rescue_LAN8720A" -300 1050 50 H V R CNN
+F1 "LAN8720A" -300 1050 50 H V R CNN
 F2 "Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm" 50 -950 50 H I L CNN
 F3 "" -200 -950 50 H I C CNN
 $FPLIST
@@ -720,11 +720,11 @@ X VDDIO 9 -200 1200 200 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LED_ALT
+# LED_ALT
 #
-DEF dc-power-supply-rescue_LED_ALT D 0 40 Y N 1 F N
+DEF LED_ALT D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "dc-power-supply-rescue_LED_ALT" 0 -100 50 H V C CNN
+F1 "LED_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -741,11 +741,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LED_Small
+# LED_Small
 #
-DEF dc-power-supply-rescue_LED_Small D 0 10 N N 1 F N
+DEF LED_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "dc-power-supply-rescue_LED_Small" -175 -100 50 H V L CNN
+F1 "LED_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -762,11 +762,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LPC4337JBD144
+# LPC4337JBD144
 #
-DEF dc-power-supply-rescue_LPC4337JBD144 U 0 40 Y Y 1 L N
+DEF LPC4337JBD144 U 0 40 Y Y 1 L N
 F0 "U" -2400 2450 50 H V L BNN
-F1 "dc-power-supply-rescue_LPC4337JBD144" 1850 2450 50 H V L BNN
+F1 "LPC4337JBD144" 1850 2450 50 H V L BNN
 F2 "" 0 0 50 H I L BNN
 F3 "" 50 150 50 H I L BNN
 DRAW
@@ -918,11 +918,11 @@ X CLK2 99 800 2500 100 D 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LT1013DS
+# LT1013DS
 #
-DEF dc-power-supply-rescue_LT1013DS U 0 20 Y Y 2 F N
+DEF LT1013DS U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "dc-power-supply-rescue_LT1013DS" -50 -200 50 H V L CNN
+F1 "LT1013DS" -50 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -945,11 +945,30 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LT3081ER
+# LT1084
 #
-DEF dc-power-supply-rescue_LT3081ER U 0 40 Y Y 1 F N
+DEF LT1084 IC 0 20 Y Y 1 F N
+F0 "IC" -210 175 50 H V L BNN
+F1 "LT1084" -210 110 50 H V L BNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 50 H I L BNN
+$FPLIST
+ TO247L
+ TO247S
+$ENDFPLIST
+DRAW
+S -200 100 200 -150 0 0 0 f
+X ADJ 1 0 -250 100 U 40 40 0 0 I
+X OUT 2 300 0 100 L 40 40 0 0 P
+X IN 3 -300 0 100 R 40 40 0 0 I
+ENDDRAW
+ENDDEF
+#
+# LT3081ER
+#
+DEF LT3081ER U 0 40 Y Y 1 F N
 F0 "U" -300 550 60 H V C CNN
-F1 "dc-power-supply-rescue_LT3081ER" -150 450 60 H V C CNN
+F1 "LT3081ER" -150 450 60 H V C CNN
 F2 "" -150 0 60 H I C CNN
 F3 "" -150 0 60 H I C CNN
 DRAW
@@ -964,11 +983,11 @@ X NC 7 -550 0 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LT6657
+# LT6657
 #
-DEF dc-power-supply-rescue_LT6657 U 0 40 Y Y 1 F N
+DEF LT6657 U 0 40 Y Y 1 F N
 F0 "U" -255 425 60 H V C CNN
-F1 "dc-power-supply-rescue_LT6657" -150 345 60 H V C CNN
+F1 "LT6657" -150 345 60 H V C CNN
 F2 "" -100 -100 60 H I C CNN
 F3 "" -100 -100 60 H I C CNN
 DRAW
@@ -984,11 +1003,11 @@ X NC 8 500 200 200 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LT8607
+# LT8607
 #
-DEF dc-power-supply-rescue_LT8607 U 0 40 Y Y 1 F N
+DEF LT8607 U 0 40 Y Y 1 F N
 F0 "U" 300 1500 60 H V C CNN
-F1 "dc-power-supply-rescue_LT8607" 400 1400 60 H V C CNN
+F1 "LT8607" 400 1400 60 H V C CNN
 F2 "" 450 950 60 H I C CNN
 F3 "" 450 950 60 H I C CNN
 DRAW
@@ -1007,11 +1026,11 @@ X VIN 9 50 1250 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LT8612EUDE
+# LT8612EUDE
 #
-DEF dc-power-supply-rescue_LT8612EUDE U 0 40 Y Y 1 F N
+DEF LT8612EUDE U 0 40 Y Y 1 F N
 F0 "U" 300 2400 60 H V C CNN
-F1 "dc-power-supply-rescue_LT8612EUDE" 500 2300 60 H V C CNN
+F1 "LT8612EUDE" 500 2300 60 H V C CNN
 F2 "" 450 1850 60 H I C CNN
 F3 "" 450 1850 60 H I C CNN
 DRAW
@@ -1048,11 +1067,11 @@ X PGND 9 50 650 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LTC2486
+# LTC2486
 #
-DEF dc-power-supply-rescue_LTC2486 U 0 40 Y Y 1 L N
+DEF LTC2486 U 0 40 Y Y 1 L N
 F0 "U" 300 925 50 H V L BNN
-F1 "dc-power-supply-rescue_LTC2486" 1175 925 50 H V L BNN
+F1 "LTC2486" 1175 925 50 H V L BNN
 F2 "" 0 800 50 H I L BNN
 F3 "" 0 800 50 H I L BNN
 DRAW
@@ -1075,11 +1094,11 @@ X CH1 9 1800 200 300 L 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LTC2602
+# LTC2602
 #
-DEF dc-power-supply-rescue_LTC2602 U 0 40 Y Y 1 L N
+DEF LTC2602 U 0 40 Y Y 1 L N
 F0 "U" -600 325 50 H V L BNN
-F1 "dc-power-supply-rescue_LTC2602" 275 325 50 H V L BNN
+F1 "LTC2602" 275 325 50 H V L BNN
 F2 "" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 DRAW
@@ -1095,11 +1114,11 @@ X VOUT_A 8 800 200 200 L 40 40 0 0 O
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LTC3631
+# LTC3631
 #
-DEF dc-power-supply-rescue_LTC3631 U 0 40 Y Y 1 L N
+DEF LTC3631 U 0 40 Y Y 1 L N
 F0 "U" -360 390 50 H V L BNN
-F1 "dc-power-supply-rescue_LTC3631" -360 320 50 H V L BNN
+F1 "LTC3631" -360 320 50 H V L BNN
 F2 "" 150 -100 50 H I L BNN
 F3 "" 150 -100 50 H I L BNN
 DRAW
@@ -1116,11 +1135,11 @@ X GND 9 100 -500 200 U 40 40 1 0 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_LTC3632EDD
+# LTC3632EDD
 #
-DEF dc-power-supply-rescue_LTC3632EDD U 0 40 Y Y 1 F N
+DEF LTC3632EDD U 0 40 Y Y 1 F N
 F0 "U" -300 550 60 H V C CNN
-F1 "dc-power-supply-rescue_LTC3632EDD" -80 450 60 H V C CNN
+F1 "LTC3632EDD" -80 450 60 H V C CNN
 F2 "" -150 0 60 H I C CNN
 F3 "" -150 0 60 H I C CNN
 DRAW
@@ -1137,11 +1156,11 @@ X GND 9 0 -550 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_L_Small
+# L_Small
 #
-DEF dc-power-supply-rescue_L_Small L 0 10 N N 1 F N
+DEF L_Small L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "dc-power-supply-rescue_L_Small" 30 -40 50 H V L CNN
+F1 "L_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1160,11 +1179,11 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_PRTR5V0U2X
+# PRTR5V0U2X
 #
-DEF dc-power-supply-rescue_PRTR5V0U2X D 0 40 Y Y 1 F N
+DEF PRTR5V0U2X D 0 40 Y Y 1 F N
 F0 "D" 0 250 50 H V C CNN
-F1 "dc-power-supply-rescue_PRTR5V0U2X" 0 -250 50 H V C CNN
+F1 "PRTR5V0U2X" 0 -250 50 H V C CNN
 F2 "" 50 -50 50 H I C CNN
 F3 "" 50 -50 50 H I C CNN
 $FPLIST
@@ -1179,11 +1198,11 @@ X VCC 4 -300 100 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_PWR_FLAG
+# PWR_FLAG
 #
-DEF dc-power-supply-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "dc-power-supply-rescue_PWR_FLAG" 0 150 50 H V C CNN
+F1 "PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1192,11 +1211,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_Q_NPN_BCE
+# Q_NPN_BCE
 #
-DEF dc-power-supply-rescue_Q_NPN_BCE Q 0 0 Y N 1 F N
+DEF Q_NPN_BCE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "dc-power-supply-rescue_Q_NPN_BCE" 200 -50 50 H V L CNN
+F1 "Q_NPN_BCE" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1211,11 +1230,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_Q_PNP_BCE
+# Q_PNP_BCE
 #
-DEF dc-power-supply-rescue_Q_PNP_BCE Q 0 0 Y N 1 F N
+DEF Q_PNP_BCE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "dc-power-supply-rescue_Q_PNP_BCE" 200 -50 50 H V L CNN
+F1 "Q_PNP_BCE" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1230,11 +1249,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_RB1-125BAG1A
+# RB1-125BAG1A
 #
-DEF dc-power-supply-rescue_RB1-125BAG1A P 0 40 Y Y 1 L N
+DEF RB1-125BAG1A P 0 40 Y Y 1 L N
 F0 "P" -700 1520 50 H V L BNN
-F1 "dc-power-supply-rescue_RB1-125BAG1A" -700 -1600 50 H V L BNN
+F1 "RB1-125BAG1A" -700 -1600 50 H V L BNN
 F2 "WIZNET_RB1-125BAG1A" 0 0 50 H I L BNN
 F3 "WIZnet" 0 0 50 H I L BNN
 F4 "Accessory RJ-45 With Transformer Connector - UDE" 0 0 50 H I L BNN "Description"
@@ -1460,11 +1479,11 @@ X RD- R8 -800 0 100 R 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_R_Small
+# R_Small
 #
-DEF dc-power-supply-rescue_R_Small R 0 10 N N 1 F N
+DEF R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "dc-power-supply-rescue_R_Small" 30 -40 50 H V L CNN
+F1 "R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1477,11 +1496,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_Rotary_Encoder_Switch
+# Rotary_Encoder_Switch
 #
-DEF dc-power-supply-rescue_Rotary_Encoder_Switch SW 0 40 Y Y 1 F N
+DEF Rotary_Encoder_Switch SW 0 40 Y Y 1 F N
 F0 "SW" 0 260 50 H V C CNN
-F1 "dc-power-supply-rescue_Rotary_Encoder_Switch" 0 -260 50 H V C CNN
+F1 "Rotary_Encoder_Switch" 0 -260 50 H V C CNN
 F2 "" -100 160 50 H I C CNN
 F3 "" 0 260 50 H I C CNN
 DRAW
@@ -1507,11 +1526,11 @@ X ~ 5 300 -100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_SW_Push
+# SW_Push
 #
-DEF dc-power-supply-rescue_SW_Push SW 0 40 N N 1 F N
+DEF SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "dc-power-supply-rescue_SW_Push" 0 -60 50 H V C CNN
+F1 "SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -1524,11 +1543,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-power-supply-rescue_USB_B
+# USB_B
 #
-DEF dc-power-supply-rescue_USB_B J 0 40 Y Y 1 F N
+DEF USB_B J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "dc-power-supply-rescue_USB_B" -200 350 50 H V L CNN
+F1 "USB_B" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -1554,21 +1573,6 @@ X D- 2 300 -100 100 L 50 50 1 1 P
 X D+ 3 300 0 100 L 50 50 1 1 P
 X GND 4 0 -400 100 U 50 50 1 1 W
 X Shield 5 -100 -400 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dc_supply_LM338T
-#
-DEF dc_supply_LM338T U 0 40 Y Y 1 F N
-F0 "U" -250 200 50 H V C CNN
-F1 "dc_supply_LM338T" 200 200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -250 150 300 -100 0 1 0 f
-X ADJ 1 0 -200 100 U 50 50 1 1 I
-X Vout 2 400 50 100 L 50 50 1 1 O
-X Vin 3 -350 50 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
