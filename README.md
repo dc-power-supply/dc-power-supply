@@ -210,7 +210,7 @@ and/or discussed via the GitHub issue tracker. There is also a GitHub wiki
 available for editing. It's the GitHub way!
 
 <p align="center">
-<img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" height="100px">
+<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" height="100px">
 </p>
 
 **Note**: Please take care to always use the latest version of the design tools
