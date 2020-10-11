@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name dc-power-supply-rescue)(type Legacy)(uri ${KIPRJMOD}/dc-power-supply-rescue.lib)(options "")(descr ""))
+  (lib (name dc_supply)(type Legacy)(uri ${KIPRJMOD}/kicad-library/library/dc_supply.lib)(options "")(descr ""))
+)
