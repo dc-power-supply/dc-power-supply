@@ -124,7 +124,7 @@ learning experience on how to do OSHW design stuff on GitHub :o)
 ## Design tools
 
  - Schematic/PCB design
-   - KiCad 4.0.7 (http://kicad-pcb.org)
+   - KiCad 4.0.7 (http://kicad.org)
    - Migrate to KiCad 5.0 when it is released
 
 <p align="center">
